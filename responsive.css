@@ -76,13 +76,13 @@
     }
 
     input{
-        width: 427px;
+        width: 490px;
         height: 56px;
         margin-left: -10px;
     }
 
     button{
-        width: 128px;
+        width: 200px;
         height: 48px;
         margin-left: -135px;
         margin-top: -20px;
@@ -101,6 +101,12 @@
     padding-top: 257px;
     position: absolute;
   }
+
+  .section3 p{
+    position: relative;
+    left: -250px;
+    top: 60px;
+}
 }
 
 @media (width <= 768px){
@@ -155,6 +161,16 @@
     .hidden-image{
         right: 0;
         margin-top: -350px;
+    }
+
+    button{
+        margin-left: -150px;
+    }
+
+    .section3 p{
+        position: relative;
+        left: -270px;
+        top: 60px;
     }
 
 

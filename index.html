@@ -36,12 +36,11 @@
             <img src="./assets/Group 3 (2).svg" alt="">
             <img src="./assets/Group 5 (2).svg" alt="">
         </div>
-
         <div class="section3">
-            <input id="subscribe-email" type="email" placeholder="Email addres" required="required" name="email">
-                <!-- <p class="error" type="error"></p> -->
-                <button  type="submit"  id="subscribe-submit" onClick="check()"><h2>Request Access</h2></button>
-        </div>
+            <input class="email" id="subscribe-email" type="email" placeholder="Email address" required="required" name="email" value="">
+            <button type="submit" id="subscribe-submit" onClick="checkEmailValidity()"><h2>Request Access</h2></button>
+            <p id="error-message" style="color: red;"></p>
+          </div>
 
         <div class="hidden-media">
             <img src="./assets2/Spotify_logo_with_text 2.svg" alt="">
